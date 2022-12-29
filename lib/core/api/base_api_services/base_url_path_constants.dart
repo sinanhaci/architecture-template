@@ -1,0 +1,5 @@
+class BaseUrlPathConstants {
+  String refreshTokenPath = '';
+
+
+}

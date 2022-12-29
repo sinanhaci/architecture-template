@@ -1,0 +1,108 @@
+{
+   "done":"Done",
+   "close":"Close",
+   "exit":"Exit",
+   "cancel":"Cancel",
+   "ok":"Ok",
+   "monday":"Monday",
+   "tuesday":"Tuesday",
+   "wednesday":"Wednesday",
+   "thursday":"Thursday",
+   "friday":"Friday",
+   "saturday":"Saturday",
+   "sunday":"Sunday",
+   "january":"January",
+   "february":"February",
+   "march":"March",
+   "april":"April",
+   "may":"May",
+   "june":"June",
+   "july":"July",
+   "august":"August",
+   "september":"September",
+   "october":"October",
+   "november":"November",
+   "december":"December",
+   "today":"Today",
+   "yesterday":"Yesterday",
+   "secondsAgo":"@param seconds ago",
+   "@secondsAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "minuteAgo":"@param minute ago",
+   "@minuteAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "hourAgo":"@param hour ago",
+   "@hourAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "dayAgo":"@param day ago",
+   "@dayAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "now":"Now",
+   "permissionDialogTitle":"You Need to Allow",
+   "permissionDialogContent":"For {type} access, you need to give permission in settings. Do you want to open settings?",
+   "@permissionDialogContent":{
+      "placeholders":{
+         "type": {
+                     "type": "String"
+                 }
+      }
+   },
+   "permissionGallery":"Photo Gallery",
+   "permissionCamera":"Camera",
+   "languageChangeTitle":"Changing Application Language",
+   "languageChangeContent":"Changing the application language to {lang}, you need to restart the application while changing the language. Do you approve this action?",
+   "@languageChangeContent":{
+      "placeholders":{
+         "lang": {
+                     "type": "String"
+                 }
+      }
+   },
+   "langTurkish":"Turkish",
+   "langEnglish":"English",
+   "change":"Change",
+   "update":"Update",
+   "httpErrorTimeOut":"The request timed out, please try again later.",
+   "httpErrorTryCatch":"Oops! The server is unreachable, you can be sure that we will solve your problem as soon as possible.",
+   "httpErrorNoNetwork":"Oops! The server cannot be reached, check your internet connection and try again.",
+   "httpErrorOther":"An unknown error has occurred, we will identify and resolve the issue as soon as possible. Thank you for your understanding",
+   "httpErrorStatusCode":"Status Code : {code} \n We are currently updating the server. Please try again.",
+   "@httpErrorStatusCode":{
+   "placeholders":{
+      "code": {
+                  "type": "String"
+              }
+      }
+   },
+   "routeError":"This page not found",
+   "networkStatusOff":"There is a problem with your internet connection, please check!",
+
+
+   "bottomPage1":"Page1",
+   "bottomPage2":"Page2",
+   "bottomPage3":"Page3",
+   "bottomPage4":"Page4",
+   "bottomPage5":"Page5"
+
+
+}

@@ -1,0 +1,115 @@
+{
+   "done":"Tamam",
+   "close":"Kapat",
+   "exit":"Çıkış",
+   "cancel":"İptal",
+   "ok":"Evet",
+   "monday":"Pazartesi",
+   "tuesday":"Salı",
+   "wednesday":"Çarşamba",
+   "thursday":"Perşembe",
+   "friday":"Cuma",
+   "saturday":"Cumartesi",
+   "sunday":"Pazar",
+   "january":"Ocak",
+   "february":"Şubat",
+   "march":"Mart",
+   "april":"Nisan",
+   "may":"Mayıs",
+   "june":"Haziran",
+   "july":"Temmuz",
+   "august":"Ağustos",
+   "september":"Eylül",
+   "october":"Ekim",
+   "november":"Kasım",
+   "december":"Aralık",
+   "today":"Bugün",
+   "yesterday":"Dün",
+   "secondsAgo":"@param saniye önce",
+   "@secondsAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "minuteAgo":"@param dakika önce",
+   "@minuteAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "hourAgo":"@param saat önce",
+   "@hourAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "dayAgo":"@param gün önce",
+   "@dayAgo":{
+      "placeholders":{
+         "param": {
+                     "type": "String"
+                 }
+      }
+   },
+   "now":"Şimdi",
+   "permissionDialogTitle":"İzin Vermeniz Gerekiyor",
+   "permissionDialogContent":"{type} erişimi için, ayarlardan izin vermeniz gerekiyor. Ayarları açmak ister misiniz?",
+   "@permissionDialogContent":{
+      "placeholders":{
+         "type": {
+                     "type": "String"
+                 }
+      }
+   },
+   "permissionGallery":"Fotoğraf Galerisi",
+   "permissionCamera":"Kamera",
+   "languageChangeTitle":"Uygulama Dili Değiştiriliyor",
+   "languageChangeContent":"Uygulama dili {lang} olarak değiştiriliyor, dil değiştirilirken uygulamayı yeniden başlatmanız gerekiyor. Bu işlemi onaylıyor musunuz?",
+   "@languageChangeContent":{
+      "placeholders":{
+         "lang": {
+                     "type": "String"
+                 }
+      }
+   },
+   "langTurkish":"Türkçe",
+   "langEnglish":"İngilizce",
+   "change":"Değiştir",
+   "update":"Güncelle",
+   "httpErrorTimeOut":"İstek zaman aşımına uğradı, lütfen daha sonra tekrar deneyiniz.",
+   "httpErrorTryCatch":"Oops! sunucuya ulaşılamıyor, sorununuzu en kısa sürede çözeceğimizden emin olabilirsiniz.",
+   "httpErrorNoNetwork":"Oops! sunucuya ulaşılamıyor, internet bağlantınızı kontrol edip tekrar deneyiniz.",
+   "httpErrorOther":"Beklenmeyen bir hata oluştu, sorunu en kısa sürede belirleyip çözeceğiz. Anlayışınız için teşekkürler",
+   "httpErrorStatusCode":"Status Code : {code} \n Şuanda güncelleme yapıyoruz, birazdan sorununuz düzelecektir.",
+   "@httpErrorStatusCode":{
+   "placeholders":{
+      "code": {
+                  "type": "String"
+              }
+      }
+   },
+   "routeError":"Sayfa bulunamadı",
+   "networkStatusOff":"İnternet bağlantınızda sorun var, lütfen kontrol ediniz!",
+
+
+
+
+   "bottomPage1":"Sayfa1",
+   "bottomPage2":"Sayfa2",
+   "bottomPage3":"Sayfa3",
+   "bottomPage4":"Sayfa4",
+   "bottomPage5":"Sayfa5"
+
+
+
+
+
+
+
+}

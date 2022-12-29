@@ -1,0 +1,4 @@
+enum CacheEnum{
+  locale,
+  theme,
+}
