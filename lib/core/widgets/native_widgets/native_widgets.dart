@@ -5,6 +5,7 @@ import '../../navigation/navigation_service.dart';
 
 class NativeWidget {
   static final NativeWidgets _nativeWidgets = NativeWidgets(
+    //TODO: STYLE
     NavigationService.instance.navigatorKey.currentContext!,
     actionSheetTheme: CustomActionSheetTheme(),
     buttonTheme: CustomButtonTheme(),
@@ -12,38 +13,15 @@ class NativeWidget {
     switchTheme: CustomSwitchTheme(),
   );
 
-  static Widget indicator(
-      {IndicatorType indicatorType = IndicatorType.center}) {
-    return _nativeWidgets.nativeIndicator(
-      constructors: CustomIndicatorModel(
-        indicatorType: indicatorType,
-      ),
-    );
+  static Widget indicator({IndicatorType indicatorType = IndicatorType.center}) {
+    return _nativeWidgets.nativeIndicator(constructors: CustomIndicatorModel(indicatorType: indicatorType,),);
   }
 
-  static Widget nSwitch(
-      {required bool value,
-      void Function(bool)? onChanged,
-      Color? color,
-      Color? thumbColor,
-      Color? trackColor}) {
-    return _nativeWidgets.nativeSwitch(
-        constructors: CustomSwitchModel(
-      value: value,
-      onChanged: onChanged,
-    ));
+  static Widget nSwitch({required bool value,void Function(bool)? onChanged,Color? color,Color? thumbColor,Color? trackColor}) {
+    return _nativeWidgets.nativeSwitch(constructors: CustomSwitchModel(value: value,onChanged: onChanged,));
   }
 
-  static Future<dynamic> dialog({
-    required String title,
-    required String content,
-    required Function? onPress,
-    String? okButtonText,
-    bool isDefaultAction = false,
-    bool isDestructiveAction = false,
-    ButtonProperties? cancelButtonProperties,
-    DialogInputProperties? inputProperties,
-    DialogType dialogType = DialogType.ok,
+  static Future<dynamic> dialog({required String title,required String content,required Function? onPress,String? okButtonText,bool isDefaultAction = false,bool isDestructiveAction = false,ButtonProperties? cancelButtonProperties,DialogInputProperties? inputProperties,DialogType dialogType = DialogType.ok,
   }) async {
     return await _nativeWidgets.nativeDialog(
       constructors: DialogModel(
@@ -66,15 +44,7 @@ class NativeWidget {
     );
   }
 
-  static Future<DateTime?> dateTimePicker({
-    required DateTime time,
-    DatePickerDateOrder? dateOrder,
-    DateTime? initialDateTime,
-    DateTime? maximumDate,
-    DateTime? minimumDate,
-    DateTimePickerType? pickerType,
-    int? maximumYear,
-    int? minimumYear,
+  static Future<DateTime?> dateTimePicker({required DateTime time,DatePickerDateOrder? dateOrder,DateTime? initialDateTime,DateTime? maximumDate,DateTime? minimumDate,DateTimePickerType? pickerType,int? maximumYear,int? minimumYear,
   }) async {
     return await _nativeWidgets.nativeDateTimePicker(
       constructors: DateTimePickerModel(
@@ -89,11 +59,7 @@ class NativeWidget {
     );
   }
 
-  static Future<dynamic> actionSheet({
-    required List<ButtonProperties> actions,
-    String? content,
-    String? title,
-    ButtonProperties? defaultButtonProperties,
+  static Future<dynamic> actionSheet({required List<ButtonProperties> actions,String? content,String? title,ButtonProperties? defaultButtonProperties,
   }) async {
     return await _nativeWidgets.nativeActionSheet(
       constructors: ActionSheetModel(
@@ -104,14 +70,7 @@ class NativeWidget {
     );
   }
 
-  static Widget refreshIndicator({
-    int? itemCount,
-    ScrollPhysics? physics,
-    ScrollController? scrollController,
-    bool shrinkWrap = false,
-    required Future<void> Function() onRefresh,
-    List<Widget>? children,
-    Widget Function(BuildContext, int)? itemBuilder,
+  static Widget refreshIndicator({int? itemCount,ScrollPhysics? physics,ScrollController? scrollController,bool shrinkWrap = false,required Future<void> Function() onRefresh,List<Widget>? children,Widget Function(BuildContext, int)? itemBuilder,
   }) {
     return _nativeWidgets.nativeRefreshIndicator(
       constructors: RefreshIndicatorModel(

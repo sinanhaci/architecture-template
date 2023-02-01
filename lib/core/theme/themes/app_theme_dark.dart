@@ -28,18 +28,12 @@ class AppThemeDark extends AppTheme with IDarkTheme {
 
   TextTheme get textThemes =>
     ThemeData.dark().textTheme.copyWith(
-          headline1: textThemeDark.xLargeNormal.apply(color: _appColorScheme.primary),
-          headline2: textThemeDark.largeNormal.apply(color: _appColorScheme.primary),
-          headline3: textThemeDark.mediumNormal.apply(color: _appColorScheme.primary),
-          headline4: textThemeDark.normalNormal.apply(color: _appColorScheme.primary),
-          headline5: textThemeDark.smallNormal.apply(color: _appColorScheme.primary),
-          headline6: textThemeDark.xSmallNormal.apply(color: _appColorScheme.primary),
-          subtitle1: textThemeDark.xLargeBold.apply(color: _appColorScheme.primary),
-          subtitle2: textThemeDark.largeBold.apply(color: _appColorScheme.primary),
-          bodyText1: textThemeDark.mediumBold.apply(color: _appColorScheme.primary),
-          bodyText2: textThemeDark.normalBold.apply(color: _appColorScheme.primary),
-          overline: textThemeDark.xSmallBold.apply(color: _appColorScheme.primary),
-          caption: textThemeDark.smallBold.apply(color: _appColorScheme.primary),
+          displayLarge: textThemeDark.largeNormal.apply(color: _appColorScheme.primary),
+          displayMedium: textThemeDark.mediumNormal.apply(color: _appColorScheme.primary),
+          displaySmall: textThemeDark.smallNormal.apply(color: _appColorScheme.primary),
+          headlineLarge: textThemeDark.largeBold.apply(color: _appColorScheme.primary),
+          headlineMedium: textThemeDark.mediumBold.apply(color: _appColorScheme.primary),
+          headlineSmall: textThemeDark.smallBold.apply(color: _appColorScheme.primary),
         );
   
 

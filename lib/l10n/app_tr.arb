@@ -25,7 +25,7 @@
    "december":"Aralık",
    "today":"Bugün",
    "yesterday":"Dün",
-   "secondsAgo":"@param saniye önce",
+   "secondsAgo":"{param} saniye önce",
    "@secondsAgo":{
       "placeholders":{
          "param": {
@@ -33,7 +33,7 @@
                  }
       }
    },
-   "minuteAgo":"@param dakika önce",
+   "minuteAgo":"{param} dakika önce",
    "@minuteAgo":{
       "placeholders":{
          "param": {
@@ -41,7 +41,7 @@
                  }
       }
    },
-   "hourAgo":"@param saat önce",
+   "hourAgo":"{param} saat önce",
    "@hourAgo":{
       "placeholders":{
          "param": {
@@ -49,7 +49,7 @@
                  }
       }
    },
-   "dayAgo":"@param gün önce",
+   "dayAgo":"{param} gün önce",
    "@dayAgo":{
       "placeholders":{
          "param": {

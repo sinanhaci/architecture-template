@@ -81,7 +81,7 @@ class _NoNetworkWidgetState extends State<NoNetworkWidget> with StateMixin {
                   const SizedBox(
                     width: 5,
                   ),
-                  Expanded(child: XSmallText(tr.networkStatusOff))
+                  Expanded(child: SmallText(tr.networkStatusOff))
                 ],
               ),
             ),

@@ -78,7 +78,7 @@ class CustomTextField extends StatelessWidget {
               : Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    XSmallText(textFieldTitle,color: errorStatus ? theme.colorScheme.error :  theme.colorScheme.primary.withOpacity(0.8),),
+                    SmallText(textFieldTitle,color: errorStatus ? theme.colorScheme.error :  theme.colorScheme.primary.withOpacity(0.8),),
                     const SizedBox(
                       height: 10,
                     ),
@@ -114,11 +114,11 @@ class CustomTextField extends StatelessWidget {
               focusNode: focusNode,
               textInputAction: textInputAction ?? TextInputAction.done,
               cursorColor: theme.colorScheme.primary,
-              style: style ??  theme.textTheme.headline5!.apply(color: theme.colorScheme.primary),
+              style: style ??  theme.textTheme.displaySmall!.apply(color: theme.colorScheme.primary),
               autovalidateMode: AutovalidateMode.onUserInteraction,
               decoration: InputDecoration(
                 prefixText: prefixText,
-                prefixStyle: theme.textTheme.headline5!.apply(color: theme.colorScheme.primary),
+                prefixStyle: theme.textTheme.displaySmall!.apply(color: theme.colorScheme.primary),
                 errorStyle: TextStyle(
                   color: theme.colorScheme.error,
                   height: 0,
@@ -127,7 +127,7 @@ class CustomTextField extends StatelessWidget {
                 counterText: '',
                 suffixIcon: suffixIcon,
                 focusColor: theme.colorScheme.defaultInputBackgroundColor,
-                hintStyle: theme.textTheme.headline6!.apply(color: theme.colorScheme.primary.withOpacity(0.5)),
+                hintStyle: theme.textTheme.displaySmall!.apply(color: theme.colorScheme.primary.withOpacity(0.5)),
                 border: errorStatus ? _errorBorder(context,theme): _textFieldBorder(context,theme),
                 focusedBorder:errorStatus ? _errorBorder(context,theme): _textFieldBorder(context,theme),
                 enabledBorder: errorStatus ? _errorBorder(context,theme): _textFieldBorder(context,theme),

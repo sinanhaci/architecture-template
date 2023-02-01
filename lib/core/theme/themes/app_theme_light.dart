@@ -27,18 +27,12 @@ class AppThemeLight extends AppTheme with ILightTheme {
 
   TextTheme get textThemes =>
    ThemeData.light().textTheme.copyWith(
-          headline1: textThemeLight.xLargeNormal.apply(color: _appColorScheme.primary),
-          headline2: textThemeLight.largeNormal.apply(color: _appColorScheme.primary),
-          headline3: textThemeLight.mediumNormal.apply(color: _appColorScheme.primary),
-          headline4: textThemeLight.normalNormal.apply(color: _appColorScheme.primary),
-          headline5: textThemeLight.smallNormal.apply(color: _appColorScheme.primary),
-          headline6: textThemeLight.xSmallNormal.apply(color: _appColorScheme.primary),
-          subtitle1: textThemeLight.xLargeBold.apply(color: _appColorScheme.primary),
-          subtitle2: textThemeLight.largeBold.apply(color: _appColorScheme.primary),
-          bodyText1: textThemeLight.mediumBold.apply(color: _appColorScheme.primary),
-          bodyText2: textThemeLight.normalBold.apply(color: _appColorScheme.primary),
-          overline: textThemeLight.xSmallBold.apply(color: _appColorScheme.primary),
-          caption: textThemeLight.smallBold.apply(color: _appColorScheme.primary),
+          displayLarge: textThemeLight.largeNormal.apply(color: _appColorScheme.primary),
+          displayMedium: textThemeLight.mediumNormal.apply(color: _appColorScheme.primary),
+          displaySmall: textThemeLight.smallNormal.apply(color: _appColorScheme.primary),
+          headlineLarge: textThemeLight.largeBold.apply(color: _appColorScheme.primary),
+          headlineMedium: textThemeLight.mediumBold.apply(color: _appColorScheme.primary),
+          headlineSmall: textThemeLight.smallBold.apply(color: _appColorScheme.primary),
         );
   
 
