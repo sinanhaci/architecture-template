@@ -1,10 +1,11 @@
 import 'dart:io';
-import 'package:core_project/core/_core_configuration/localization_configuration.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:native_widgets/enums/dialog_type.dart';
 import 'package:native_widgets/models/button_properties_model.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../_core_configuration/localization_configuration.dart';
 import '../cache/local_cache_controller.dart';
 import '../constants/enums/cache_enums.dart';
 import '../navigation/navigation_service.dart';

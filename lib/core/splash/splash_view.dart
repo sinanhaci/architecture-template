@@ -1,5 +1,6 @@
-import 'package:core_project/core/_core_configuration/splash_configuration.dart';
+
 import 'package:flutter/material.dart';
+import '../_core_configuration/splash_configuration.dart';
 import '../base/base_view.dart';
 import '../log/page_logger/log_model.dart';
 import 'splash_controller.dart';
