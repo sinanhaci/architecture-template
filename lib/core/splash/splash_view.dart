@@ -11,16 +11,16 @@ class SplashView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BaseView<SplashController>(
-      controller: SplashController(),
-      pageLoggerKeys: PageLoggerKeys.splash,
-      onModelReady: (controller) {
+      viewModel: SplashController(),
+      onLoggerKey: PageLoggerKeys.splash,
+      onInit: (controller) {
         controller.setContext(context);
         controller.init();
       },
       onDispose: (controller) {
         controller.dispose();
       },
-      onPageBuilder: (context, controller) {
+      onView: (context, controller) {
         return Scaffold(
           body: SplashConfiguration.splashView
         );

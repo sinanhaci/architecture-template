@@ -47,7 +47,7 @@ class MainBuild {
                             onTap: () => MainController.instance.closeKeyboard(),
                             child: SvgPicture.asset(
                               CoreAssetConstants.keyboardHideSvg,
-                              color: Theme.of(context).colorScheme.primary,
+                              theme: SvgTheme(currentColor: Theme.of(context).colorScheme.primary),
                               height: 30,
                             ),
                           ),

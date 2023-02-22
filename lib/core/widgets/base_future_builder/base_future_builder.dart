@@ -1,8 +1,10 @@
+
 import 'package:flutter/material.dart';
+import '../../../core/extensions/context_extension.dart';
 import '../../../core/localization/localization_controller.dart';
 import '../../../core/widgets/native_widgets/native_widgets.dart';
 import '../../../core/widgets/text_widgets/text_widgets.dart';
-import '../../../src/widgets/constants/constants_widgets.dart';
+
 
 
 class BaseFuturebuilder<T> extends StatelessWidget {
@@ -76,7 +78,7 @@ class FutureErrorStatusWidget extends StatelessWidget {
       height: height ?? size.height * .7,
       width: width ?? size.width,
       child: Padding(
-        padding: ConstantsWidget.onlyLeftRightPadding_35,
+        padding: context.paddingLow,
         child: Center(
           child: SmallText(
             content ?? tr.httpErrorOther,
@@ -103,7 +105,7 @@ class FutureOtherStatusWidget extends StatelessWidget {
       height: height ?? size.height * .7,
       width: width ?? size.width,
       child: Padding(
-        padding: ConstantsWidget.onlyLeftRightPadding_35,
+        padding: context.paddingLow,
         child: Center(
           child: SmallText(
             content ?? tr.httpErrorOther,
@@ -134,7 +136,7 @@ class FutureEmptyStatusWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
-            padding: ConstantsWidget.onlyLeftRightPadding_35,
+            padding:  context.paddingLow,
             child: SmallText(
               content,
               textAlign: TextAlign.center,

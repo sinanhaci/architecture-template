@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../navigation/navigation_service.dart';
 
-abstract class BaseViewModel{
+abstract class BaseViewModel {
   NavigationService navigation = NavigationService.instance;
   late Size size;
   late ThemeData theme;

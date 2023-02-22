@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
-import '../../src/view/nav_bar/bottom_nav_bar.dart';
+import '../../src/app/navbar/view/navbar_view.dart';
 import '../navigation/not_found.dart';
 import '../splash/splash_view.dart';
 
@@ -20,7 +20,7 @@ class NavigationConfiguration{
       case DEFAULT:
         return route(const SplashView(),DEFAULT);
       case NAVBAR:
-        return route(const BottomNavBar(),NAVBAR);
+        return route(const NavBarView(),NAVBAR);
       default:
         return MaterialPageRoute(
           builder: (context) => const NotFoundNavigationWidget(),

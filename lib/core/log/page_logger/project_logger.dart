@@ -12,7 +12,7 @@ class ProjectCustomLog {
   ProjectCustomLog._init();
 
   void logClassName<T>(T page) {
-    log('Current Class Name : $page');
+    //log('Current Class Name : $page');
   }
 
   void logPageName(PageLoggerKeys keys) {

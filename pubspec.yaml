@@ -29,29 +29,29 @@ dependencies:
   #---------------CORE LIBRARY---------------
   #state management
   flutter_mobx: ^2.0.6+5
-  mobx: ^2.1.3
-  mobx_codegen:
+  mobx: ^2.1.4
+  mobx_codegen: ^2.1.1
   get_it: ^7.2.0
   #localization
-  intl: 
+  intl: ^0.17.0
   #network
-  dio:
+  dio: ^5.0.0
   #ui
-  google_fonts:
-  cached_network_image: 
-  octo_image: 
-  flutter_svg: 
+  google_fonts: ^4.0.3
+  cached_network_image: ^3.2.3
+  octo_image: ^1.0.2
+  flutter_svg: ^2.0.1
   #storage
-  shared_preferences:
+  shared_preferences: ^2.0.17
   #utilities
-  connectivity_plus:
-  permission_handler: 
-  image_picker:
-  app_settings:
-  image_cropper:
-  flutter_local_notifications:
+  connectivity_plus: ^3.0.3
+  permission_handler: ^10.2.0
+  image_picker: ^0.8.6+2
+  app_settings: ^4.2.0
+  image_cropper: ^3.0.1
+  flutter_local_notifications: ^13.0.0
   #logger
-  sentry_flutter:
+  sentry_flutter: ^6.20.1
   #custom
   native_widgets:
     git:

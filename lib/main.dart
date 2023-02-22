@@ -21,7 +21,7 @@ class CoreApp extends StatelessWidget {
       valueListenable: AppThemeController.themeMode,
       builder: (BuildContext context, ThemeMode themeMode, Widget? child) {
         return MaterialApp(
-          title: 'Starwood Portal',
+          title: 'Core App',
           builder: MainBuild.build,
           navigatorKey: NavigationService.instance.navigatorKey,
           initialRoute: NavigationConfiguration.DEFAULT,

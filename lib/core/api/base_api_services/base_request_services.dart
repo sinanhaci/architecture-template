@@ -13,8 +13,8 @@ class BaseRequestMethod extends BaseResponseHandle {
   dioInitialize(){
     client = Dio()
     ..options.baseUrl = constants.apiBaseUrl
-    ..options.connectTimeout = constants.connectionTimeout
-    ..options.receiveTimeout = constants.receiveTimeout
+    ..options.connectTimeout = Duration(seconds: constants.connectionTimeout)
+    ..options.receiveTimeout = Duration(seconds: constants.receiveTimeout)
     ..options.contentType = constants.contentType
     ..options.headers = constants.getTokenHeader(HttpConfiguration.token ?? 'TOKEN')
     ..options.responseType = ResponseType.json;

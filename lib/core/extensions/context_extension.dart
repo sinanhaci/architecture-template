@@ -30,6 +30,13 @@ extension PaddingExtensionAll on BuildContext {
   EdgeInsets get paddingHigh => EdgeInsets.all(highValue);
 }
 
+extension RadiusExtensionAll on BuildContext {
+  BorderRadius get radiusLow => const BorderRadius.all(Radius.circular(8));
+  BorderRadius get radiusMedium => const BorderRadius.all(Radius.circular(14));
+  BorderRadius get radiusHight => const BorderRadius.all(Radius.circular(20));
+}
+
+
 extension PaddingExtensionSymetric on BuildContext {
   EdgeInsets get paddingLowVertical => EdgeInsets.symmetric(vertical: lowValue);
   EdgeInsets get paddingNormalVertical =>

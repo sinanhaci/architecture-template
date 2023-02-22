@@ -21,6 +21,7 @@ enum NetworkResult {
       case ConnectivityResult.ethernet:
       case ConnectivityResult.mobile:
       case ConnectivityResult.vpn:
+      case ConnectivityResult.other:
         return NetworkResult.on;
       case ConnectivityResult.none:
         return NetworkResult.off;
